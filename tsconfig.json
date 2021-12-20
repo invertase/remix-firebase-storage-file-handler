@@ -1,0 +1,14 @@
+{
+  "include": ["./src/index.ts"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "lib": ["ES2019"],
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "target": "ES2019",
+    "strict": true,
+    "declaration": true,
+    "outDir": "."
+  }
+}
